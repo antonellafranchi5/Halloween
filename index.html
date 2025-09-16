@@ -1,57 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta charset="UTF-8">
   <title>Halloween Challenge</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.65">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 12.0px 'Apple Color Emoji'; font-kerning: none}
-  </style>
+  <!-- Collegamento al CSS esterno -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Import font Creepster per titolo -->
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="it"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;title&gt;Halloween Challenge&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Collegamento al CSS esterno --&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link rel="stylesheet" href="style.css"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- Import font Creepster per titolo --&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Creepster&amp;display=swap" rel="stylesheet"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h1&gt;</span><span class="s2">🎃</span><span class="s1"> Osa risolvere l’enigma della notte&lt;/h1&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p&gt;“Non esisto di giorno, eppure porto via i colori. Ti avvolgo senza toccarti e trasformo ciò che conosci in mistero. Chi sono?”&lt;/p&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;input type="text" id="inputAnswer" placeholder="Scrivi la risposta qui"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;button onclick="checkAnswer()"&gt;Verifica&lt;/button&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div id="invito"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s2">🎉</span><span class="s1"> Complimenti! Hai trovato l'invito segreto!&lt;br&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s2">📅</span><span class="s1"> Data: 31 Ottobre&lt;br&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s2">📍</span><span class="s1"> Luogo: [inserisci indirizzo o link Google Maps]&lt;br&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s2">🧛‍♂️</span><span class="s1"> Dress code: Costume obbligatorio!</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>function checkAnswer() {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>let answer = document.getElementById("inputAnswer").value.toLowerCase().trim();</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>if(answer === "nebbia") { // sostituisci "nebbia" con la tua parola chiave</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>document.getElementById("invito").style.display = "block";</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>} else {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>alert("Risposta sbagliata! Riprova...");</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+
+  <h1>🎃 Osa risolvere l’enigma della notte</h1>
+
+  <p>“Non esisto di giorno, eppure porto via i colori. Ti avvolgo senza toccarti e trasformo ciò che conosci in mistero. Chi sono?”</p>
+
+  <input type="text" id="inputAnswer" placeholder="Scrivi la risposta qui">
+  <button onclick="checkAnswer()">Verifica</button>
+
+  <div id="invito">
+    🎉 Complimenti! Hai trovato l'invito segreto!<br>
+    📅 Data: 31 Ottobre<br>
+    📍 Luogo: [inserisci indirizzo o link Google Maps]<br>
+    🧛‍♂️ Dress code: Costume obbligatorio!
+  </div>
+
+  <script>
+    function checkAnswer() {
+      let answer = document.getElementById("inputAnswer").value.toLowerCase().trim();
+      if(answer === "nebbia") { // sostituisci "nebbia" con la tua parola chiave
+        document.getElementById("invito").style.display = "block";
+      } else {
+        alert("Risposta sbagliata! Riprova...");
+      }
+    }
+  </script>
+
 </body>
 </html>
